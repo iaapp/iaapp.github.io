@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-areas: 'myArea myArea myArea myArea';
+  gap: 8px;
+  font-size: 48px;
+  grid-template-rows: auto 64px 64px 64px 64px 64px;
+}
+
+.grid-container>div {
+  background-color: #080;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.grid-container>div:hover {
+  background-color: #040;
+}
+
+.item1 {
+  grid-area: myArea;
+  word-wrap: break-word;
+  word-break: break-all;
+}

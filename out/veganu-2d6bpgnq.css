@@ -1,0 +1,56 @@
+.pyramid {
+  -webkit-clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.pyramid_section {
+  flex: 1 1 100%;
+  background-color: blue;
+  margin-bottom: 2px;
+  padding: 24px 0;
+}
+
+.pyramid_section:nth-of-type(1) {
+  background-color: red;
+}
+
+.pyramid_section:nth-of-type(2) {
+  background-color: #080;
+}
+
+.pyramid_section:nth-of-type(3) {
+  background-color: #a2f;
+}
+
+.pyramid_section:nth-of-type(4) {
+  background-color: cyan;
+}
+
+.pyramid_section:nth-of-type(5) {
+  background-color: #ff0;
+}
+
+.pyramid_section:nth-of-type(6) {
+  background-color: #f90;
+}
+
+.pyramid_section:hover {
+  background-color: #fff;
+}
+
+.veganu-box {
+  display: grid;
+  gap: 8px;
+  background-color: #080;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+}
+
+.veganu-box>div {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid;
+}
+
+.veganu-box>div>img {
+  width: 100%;
+}

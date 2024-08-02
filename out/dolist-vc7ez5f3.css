@@ -1,0 +1,32 @@
+.list-box {
+  cursor: move;
+  margin: 16px 0;
+}
+
+.list-todo {
+  word-wrap: break-word;
+  word-break: keep-all;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: #080;
+}
+
+.overlay {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+.modal {
+  z-index: 4;
+  position: relative;
+}

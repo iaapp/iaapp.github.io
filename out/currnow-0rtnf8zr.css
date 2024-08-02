@@ -1,0 +1,11 @@
+.currnow {
+    align-items: center;
+}
+
+.currfrom {
+    outline-color: #080;
+}
+
+.currto {
+    border-color: #080;
+}
